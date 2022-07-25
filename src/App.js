@@ -1,5 +1,7 @@
 import './App.css';
-import ContextTutorial from './ContextTutorial';
+import CallbackTutorial from './CallbackTutorial';
+// import MemoTutorial from './MemoTutorial';
+// import ContextTutorial from './ContextTutorial';
 // import ImperativeHandle from './ImperativeHandle';
 // import LayoutEffectTutorial from './LayoutEffectTutorial';
 // import RefTutorial from './RefTutorial';
@@ -17,7 +19,9 @@ function App() {
       {/* <RefTutorial/> */}
       {/* <LayoutEffectTutorial/> */}
       {/* <ImperativeHandle /> */}
-      <ContextTutorial />
+      {/* <ContextTutorial /> */}
+      {/* < MemoTutorial /> */}
+      < CallbackTutorial />
       </header>
     </div>
   );
